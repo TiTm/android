@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.textviewdemo" >
+<uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+
+        </activity>
+        <activity android:name=".Login">
+
+
+        </activity>
+        <activity android:name=".webview">
+
+
+        </activity>
+        <activity android:name=".ScrollView">
+
+
+        </activity>
+        <activity android:name=".ListView">
+
+
+        </activity>
+        <activity android:name=".RecycleView">
+
+        </activity>
+        <activity android:name=".GridView">
+
+
+        </activity>
+<activity android:name=".DarwLayoutDemo">
+
+
+</activity>
+        <activity android:name=".ImgChange">
+
+
+        </activity>
+        <activity android:name=".ViewPager">
+
+        </activity>
+        <activity android:name=".Img_ViewPager">
+            <activity android:name=".B_imageview">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+
+        </activity>
+
+        <activity android:name=".CoordinatorLayout">
+
+        </activity>
+        <activity android:name=".ToolBar">
+
+
+        </activity>
+        <activity android:name=".TextInputLayout">
+
+
+        </activity>
+        <activity android:name=".Snack_bar">
+
+
+
+        </activity>
+    <activity android:name=".Cradview">
+
+
+    </activity>
+        <activity android:name=".navigationview">
+
+
+        </activity>
+    <activity android:name=".CoordinatorLayout_chongdie">
+
+
+    </activity>
+
+
+        </activity>
+    </application>
+
+</manifest>

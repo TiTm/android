@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp"
+    android:background="#123213"
+    >
+    <TextView   android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:drawableTop="#123132"
+        android:text="某某某"
+        android:textColor="#FFFEFEFF"
+        android:textSize="17dp"
+        android:textAlignment="center" />
+
+    <TextView   android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="我的通知"
+        android:paddingTop="30dp"
+        android:textColor="#FFFEFEFF"
+        android:textSize="17dp"
+        />
+    <TextView   android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="我的作业"
+        android:paddingTop="30dp"
+        android:textColor="#FFFEFEFF"
+        android:textSize="17dp"
+        />
+    <TextView   android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="我的同学录"
+        android:paddingTop="30dp"
+        android:textColor="#FFFEFEFF"
+        android:textSize="17dp"
+        />
+    <TextView   android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="我的收藏"
+        android:paddingTop="30dp"
+        android:textColor="#FFFEFEFF"
+        android:textSize="17dp"
+        />
+    <TextView   android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="我的下载"
+        android:paddingTop="30dp"
+        android:textColor="#FFFEFEFF"
+        android:textSize="17dp"
+        />
+    <TextView   android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="超级家长管理"
+        android:paddingTop="30dp"
+        android:textColor="#FFFEFEFF"
+        android:textSize="17dp"
+        />
+    <TextView   android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="我的设置"
+        android:paddingTop="30dp"
+        android:textColor="#FFFEFEFF"
+        android:textSize="17dp"
+        />
+
+</LinearLayout>

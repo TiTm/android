@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/left1"
+            android:icon="@mipmap/a"
+            android:title="Home"/>
+        <item
+            android:id="@+id/left2"
+            android:icon="@mipmap/a"
+            android:title="Messages"/>
+        <item
+            android:id="@+id/left3"
+            android:icon="@mipmap/a"
+            android:title="Friends"/>
+        <item
+            android:id="@+id/left4"
+            android:icon="@mipmap/a"
+            android:title="Discussion"/>
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:id="@+id/left_1"
+                android:icon="@mipmap/a"
+                android:title="Sub item 1"/>
+            <item
+                android:id="@+id/left_2"
+                android:icon="@mipmap/a"
+                android:title="Sub item 2"/>
+        </menu>
+    </item>
+
+</menu>

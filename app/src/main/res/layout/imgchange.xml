@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <FrameLayout
+        android:id="@+id/header_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="141dp"
+            android:layout_height="141dp"
+            android:id="@+id/imageView"
+            android:src="@mipmap/gril" />
+
+        <Button
+            android:onClick="onclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/right"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/left"
+            android:layout_toEndOf="@+id/left"
+            android:layout_gravity="right|bottom"
+            android:text="right" />
+
+        <Button
+            android:onClick="onclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn"
+            android:id="@+id/button6"
+            android:layout_alignTop="@+id/top"
+            android:layout_toRightOf="@+id/top"
+            android:layout_toEndOf="@+id/top"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            android:onClick="onclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="left"
+            android:id="@+id/left"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left|bottom" />
+
+        <Button
+            android:onClick="onclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="top"
+            android:id="@+id/top"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/right"
+            android:layout_toEndOf="@+id/right"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+</RelativeLayout>
